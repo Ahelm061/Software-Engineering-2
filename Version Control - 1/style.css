@@ -1,0 +1,198 @@
+/* Importing Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* CSS Code based off of and modified from: https://www.codingnepalweb.com/responsive-login-form-using-only-html-css/ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 15px;
+  background: #f8e6e0; /* Light cream-pink background for a soft, inviting look */
+  overflow: hidden;
+}
+
+.wrapper {
+  max-width: 400px;
+  width: 100%;
+  background: #fff; /* White background for contrast */
+  border-radius: 10px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15); /* Softer shadow for a cleaner aesthetic */
+}
+
+.wrapper .title {
+  height: 100px;
+  background: #b5534f; /* Light maroon color for headers */
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.wrapper form {
+  padding: 25px 30px;
+}
+
+.wrapper form .row {
+  height: 50px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.wrapper form .row input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 50px;
+  border-radius: 5px;
+  border: 1px solid #d3b4af; /* Soft maroon-gray border */
+  font-size: 16px;
+  color: #444;
+  transition: all 0.3s ease;
+}
+
+form .row input:focus {
+  border-color: #b5534f; /* Highlight border when focused */
+}
+
+form .row input::placeholder {
+  color: #bbb; /* Subtle placeholder text color */
+}
+
+.wrapper form .row i {
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: #b5534f; /* Match icon background to the theme color */
+  border: 1px solid #b5534f;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper form .pass {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.wrapper form .pass a {
+  color: #b5534f;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.wrapper form .pass a:hover {
+  text-decoration: underline;
+}
+
+.wrapper form .button input {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  background: #b5534f;
+  border: 1px solid #b5534f;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form .button input:hover {
+  background: #933f3b; /* Slightly darker maroon for hover effect */
+}
+
+.wrapper form .signup-link {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.wrapper form .signup-link a {
+  color: #b5534f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+form .signup-link a:hover {
+  text-decoration: underline;
+}
+.wrapper form {
+  padding: 25px 30px;
+}
+
+.wrapper form .row {
+  height: 50px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.wrapper form .row input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 50px;
+  border-radius: 5px;
+  border: 1px solid #d3b4af;
+  font-size: 16px;
+  color: #444;
+  transition: all 0.3s ease;
+}
+
+.wrapper form .row.button {
+  margin-top: 30px; /* Ensure enough space between button and previous row */
+}
+
+.wrapper form .button input {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  background: #b5534f;
+  border: 1px solid #b5534f;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.wrapper form .login-link {
+  text-align: center;
+  margin-top: 20px; /* Add space between button and text */
+  font-size: 14px;
+}
+
+.wrapper form .login-link a {
+  color: #b5534f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.wrapper form .login-link a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.logo img {
+  max-width: 120px; /* Adjust the size of your logo */
+  height: auto;
+  display: inline-block;
+}
