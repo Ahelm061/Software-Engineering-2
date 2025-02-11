@@ -1,4 +1,4 @@
-Made some changes: 
+Anthony H. changes: 
 + Security Questions added to User signup.html
 + Secuirty Question UI Created - security_questions.html
   - Flow now: Forgot Password (forgot_password.html)
