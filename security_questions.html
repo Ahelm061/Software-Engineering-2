@@ -1,0 +1,60 @@
+<!-- UI design based and was modified off of the login UI but switched for signup: https://www.codingnepalweb.com/responsive-login-form-using-only-html-css/ -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Security Question Verification</title>
+  <link rel="stylesheet" href="forms.css" />
+  <!-- Font Awesome CDN link for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Logo -->
+    <div class="logo">
+      <img src="logo.png" alt="Product Logo" />
+    </div>
+    
+    <!-- Title -->
+    <div class="title"><span>Verify Your Identity</span></div>
+    
+    <!-- Security Questions Form -->
+    <form action="#" method="POST">
+      <p class="instructions">Answer the following security questions to access your account.</p>
+
+      <!-- Question 1 -->
+      <div class="row">
+        <label for="answer1">What was your childhood pet's name?</label>
+        <i class="fas fa-question-circle"></i>
+        <input type="text" id="answer1" name="answer1" placeholder="Enter your answer" required />
+      </div>
+
+      <!-- Question 2 -->
+      <div class="row">
+        <label for="answer2">What is your mother's maiden name?</label>
+        <i class="fas fa-question-circle"></i>
+        <input type="text" id="answer2" name="answer2" placeholder="Enter your answer" required />
+      </div>
+
+      <!-- Question 3 -->
+      <div class="row">
+        <label for="answer3">What was the name of your first school?</label>
+        <i class="fas fa-question-circle"></i>
+        <input type="text" id="answer3" name="answer3" placeholder="Enter your answer" required />
+      </div>
+
+      <!-- Submit Button -->
+      <div class="row button">
+        <input type="submit" value="Verify Identity" />
+      </div>
+
+      <!-- Link to Login -->
+      <div class="login-link">
+        Remember your password? <a href="login.html">Login here</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
